@@ -1,4 +1,8 @@
 function iterativeLog(array) {
-  array.foreach(logentry => {
-  console.log("${index}: ${element}.");
+  array.forEach(logentry);
+}
+
+function logentry(index,entry,array) {
+  console.log("${index}: ${element}");
+  return
 }
