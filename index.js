@@ -2,7 +2,7 @@ function iterativeLog(array) {
   array.forEach(logentry);
 }
 
-function logentry(index,entry,array) {
+function logentry(entry,index,array) {
   console.log(`${index}: ${entry}`);
   return
 }
